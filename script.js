@@ -23,7 +23,7 @@ const numberOfBooksRead = () => {
 		if(ele.readingStatus === true) count++;
 	}
 	return count;
-	 }
+	 
 };
 
 // Do not change the code below
