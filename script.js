@@ -22,7 +22,7 @@ const numberOfBooksRead = () => {
 	for(var ele of library){
 		if(ele.readingStatus === true) count++;
 	}
-	return count;
+	console.log(count);
 	 }
 };
 
